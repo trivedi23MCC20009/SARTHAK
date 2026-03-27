@@ -2,9 +2,8 @@ import React from "react";
 
 const Hero = () => (
   <section
-    id="home"
-    className="relative min-h-screen flex flex-col justify-center items-center pt-20 md:pt-28 pb-12 px-2 text-center overflow-hidden bg-[url('/ship.jpg')] bg-cover bg-center bg-no-repeat bg-fixed"
-  >
+id="home"
+    className="relative min-h-[70vh] sm:min-h-screen flex flex-col justify-center items-center pt-20 md:pt-28 pb-12 px-2 text-center overflow-hidden bg-[url('/ship.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
     {/* Main overlay only */}
     <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-blue-900/40 to-black/70"></div>
 
