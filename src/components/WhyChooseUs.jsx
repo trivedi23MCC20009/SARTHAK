@@ -15,13 +15,15 @@ const WhyChooseUs = () => (
           <p className="text-gray-700">Learn from experienced Merchant Navy professionals and subject experts.</p>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 text-center border-t-4 border-yellow-400 hover:shadow-xl transition-shadow">
+
           <div className="w-16 h-16 bg-yellow-400 rounded-2xl mx-auto mb-6 flex items-center justify-center">
             <svg className="w-8 h-8 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           </div>
-          <h3 className="text-xl font-semibold text-blue-900 mb-2">Proven Results</h3>
-          <p className="text-gray-700">Track record of guiding students to IMU-CET success.</p>
+          <h3 className="text-xl font-semibold text-blue-900 mb-2">Mock Interviews</h3>
+          <p className="text-gray-700">We also provide 1 on 1 Mock Interview sessions.</p>
+
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 text-center border-t-4 border-yellow-400 hover:shadow-xl transition-shadow">
           <div className="w-16 h-16 bg-yellow-400 rounded-2xl mx-auto mb-6 flex items-center justify-center">

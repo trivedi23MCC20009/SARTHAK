@@ -24,11 +24,15 @@ id="home"
           <span>🚀 Secure Your Seat Now</span>
         </div>
 
-        <div 
-          className="bg-white/30 backdrop-blur-xl hover:bg-white/50 text-blue-900 font-bold text-xl px-12 py-6 rounded-3xl border-2 border-white/50 hover:border-yellow-400 hover:shadow-glow-yellow hover:-translate-y-3 transition-all duration-500 group cursor-not-allowed opacity-75 select-none pointer-events-none"
+        <a 
+          href="https://wa.me/919956662110?text=Hi! I'd like to book a free consultation for IMU-CET and Sponsorship courses at Jahaazibano. Please share details and availability."
+          className="bg-white/30 backdrop-blur-xl hover:bg-white/50 text-blue-900 font-bold text-xl px-12 py-6 rounded-3xl border-2 border-white/50 hover:border-emerald-400 hover:shadow-emerald-500/50 hover:-translate-y-3 group transition-all duration-500 relative overflow-hidden"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          💬 Book Free Consultation
-        </div>
+          <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/30 rounded-3xl blur group-hover:animate-ping"></div>
+          <span className="relative z-10">💬 Book Free Consultation</span>
+        </a>
       </div>
     </div>
   </section>

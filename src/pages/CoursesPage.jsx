@@ -38,33 +38,65 @@ const CoursesPage = () => (
           </span>
           <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-gray-900 to-slate-700 bg-clip-text text-transparent drop-shadow-lg mb-4">Choose Your Path</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="group bg-gradient-to-br from-blue-50/90 via-indigo-50/80 to-purple-50/70 backdrop-blur-lg border border-blue-200/70 rounded-3xl p-8 md:p-10 shadow-xl hover:shadow-blue-200 hover:border-blue-300/90 hover:-translate-y-4 hover:scale-[1.02] transition-all duration-500 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-            <div className="relative z-10 text-center">
-              <div className="w-24 h-24 md:w-28 md:h-28 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-indigo-500 text-white rounded-3xl shadow-xl flex items-center justify-center border-4 border-blue-100/50 group-hover:border-blue-200/70 group-hover:shadow-blue-100/30 group-hover:scale-110 transition-all duration-500 font-bold text-2xl md:text-3xl">
-                🚢
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto items-stretch">
+          <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 border-l-8 border-emerald-500 rounded-2xl p-8 shadow-2xl hover:shadow-emerald-300/50 hover:-translate-y-3 transition-all duration-500 group relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div className="relative z-10">
+              <div className="flex items-center justify-center w-20 h-20 bg-emerald-500 text-white rounded-2xl mx-auto mb-6 shadow-2xl group-hover:scale-110 transition-transform">
+                🚀
               </div>
-              <h3 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-blue-800 to-indigo-900 bg-clip-text text-transparent drop-shadow-lg mb-6">
-                IMU-CET
+<h3 className="text-2xl md:text-3xl font-black text-gray-900 mb-4 text-center bg-gradient-to-r from-emerald-900 to-emerald-700 bg-clip-text drop-shadow-lg">
+                Maritime Career Launchpad
+                <span className="block text-lg md:text-xl font-bold text-gray-900 mt-1">(Full Program)</span>
               </h3>
-              <p className="text-xl text-gray-600 leading-tight font-medium">Gateway to Merchant Navy careers</p>
+              <div className="text-4xl lg:text-5xl font-black text-emerald-600 mb-8 text-center animate-pulse drop-shadow-md">Rs. 15,000</div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center gap-3 p-3 bg-white/80 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-md transition-all group-hover:translate-x-2">
+                  <span className="w-6 h-6 bg-emerald-500 text-white rounded-lg flex items-center justify-center font-bold text-sm shadow">✓</span>
+                  <span className="text-gray-800 font-medium">IMU-CET Preparation</span>
+                </li>
+                <li className="flex items-center gap-3 p-3 bg-white/80 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-md transition-all group-hover:translate-x-2">
+                  <span className="w-6 h-6 bg-emerald-500 text-white rounded-lg flex items-center justify-center font-bold text-sm shadow">✓</span>
+                  <span className="text-gray-800 font-medium">Sponsorship Guidance</span>
+                </li>
+                <li className="flex items-center gap-3 p-3 bg-white/80 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-md transition-all group-hover:translate-x-2">
+                  <span className="w-6 h-6 bg-emerald-500 text-white rounded-lg flex items-center justify-center font-bold text-sm shadow">✓</span>
+                  <span className="text-gray-800 font-medium">Sponsorship Exam Preparation</span>
+                </li>
+                <li className="flex items-center gap-3 p-3 bg-white/80 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-md transition-all group-hover:translate-x-2">
+                  <span className="w-6 h-6 bg-emerald-500 text-white rounded-lg flex items-center justify-center font-bold text-sm shadow">✓</span>
+                  <span className="text-gray-800 font-medium">Interview Preparation</span>
+                </li>
+              </ul>
+              <a href="https://wa.me/919956662110?text=Hi! I want to enroll in Full Package (Rs15000). Please share payment details." className="block w-full bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-bold py-3 px-6 rounded-2xl text-xl text-center shadow-xl hover:shadow-emerald-400 hover:-translate-y-2 hover:from-emerald-600 hover:to-emerald-700 transition-all duration-400 relative overflow-hidden group-hover:bg-emerald-700" target="_blank" rel="noopener noreferrer">
+                Enroll Now
+              </a>
             </div>
           </div>
 
-          <div className="group bg-gradient-to-br from-orange-50/90 via-amber-50/80 to-rose-50/70 backdrop-blur-lg border border-orange-200/70 rounded-3xl p-8 md:p-10 shadow-xl hover:shadow-orange-200 hover:border-orange-300/90 hover:-translate-y-4 hover:scale-[1.02] transition-all duration-500 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-rose-500/10 opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
-            <div className="relative z-10 text-center">
-              <div className="w-24 h-24 md:w-28 md:h-28 mx-auto mb-6 bg-gradient-to-br from-orange-500 to-rose-500 text-white rounded-3xl shadow-xl flex items-center justify-center border-4 border-orange-100/50 group-hover:border-orange-200/70 group-hover:shadow-orange-100/30 group-hover:scale-110 transition-all duration-500 font-bold text-2xl md:text-3xl">
+          <div className="bg-gradient-to-br from-purple-50 to-purple-100 border-l-8 border-purple-500 rounded-2xl p-8 shadow-2xl hover:shadow-purple-300/50 hover:-translate-y-3 transition-all duration-500 group relative overflow-hidden">
+            <div className="absolute inset-0 bg-gradient-to-r from-purple-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div className="relative z-10">
+              <div className="flex items-center justify-center w-20 h-20 bg-purple-500 text-white rounded-2xl mx-auto mb-6 shadow-2xl group-hover:scale-110 transition-transform">
                 🎤
               </div>
-              <h3 className="text-3xl md:text-4xl font-black bg-gradient-to-r from-orange-800 to-rose-900 bg-clip-text text-transparent drop-shadow-lg mb-6">
-                Interview Prep
-              </h3>
-              <p className="text-xl text-gray-600 leading-tight font-medium">Psych + Technical panels</p>
+              <h3 className="text-3xl font-black text-gray-900 mb-4 text-center bg-gradient-to-r from-purple-900 to-purple-700 bg-clip-text drop-shadow-lg">Fast-Track Cadet Selection Program</h3>
+              <div className="text-4xl lg:text-5xl font-black text-purple-600 mb-8 text-center animate-pulse drop-shadow-md">Rs. 7,000</div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center gap-3 p-3 bg-white/80 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-md transition-all group-hover:translate-x-2">
+                  <span className="w-6 h-6 bg-purple-500 text-white rounded-lg flex items-center justify-center font-bold text-sm shadow">✓</span>
+                  <span className="text-gray-800 font-medium">Interview Preparation</span>
+                </li>
+                <li className="flex items-center gap-3 p-3 bg-white/80 backdrop-blur-sm rounded-xl hover:bg-white hover:shadow-md transition-all group-hover:translate-x-2">
+                  <span className="w-6 h-6 bg-purple-500 text-white rounded-lg flex items-center justify-center font-bold text-sm shadow">✓</span>
+                  <span className="text-gray-800 font-medium">Sponsorship Guidance</span>
+                </li>
+              </ul>
+              <a href="https://wa.me/919956662110?text=Hi! I'm interested in Interview + Sponsorship package (Rs7000). Please send details." className="block w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white font-bold py-3 px-6 rounded-2xl text-xl text-center shadow-xl hover:shadow-purple-400 hover:-translate-y-2 hover:from-purple-600 hover:to-purple-700 transition-all duration-400 relative overflow-hidden group-hover:bg-purple-700" target="_blank" rel="noopener noreferrer">
+                Enroll Now
+              </a>
             </div>
           </div>
-
         </div>
       </div>
     </section>
